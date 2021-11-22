@@ -1,1 +1,4 @@
-# conf-tmux
+## Required Package
+---
+
+* Nerd font
