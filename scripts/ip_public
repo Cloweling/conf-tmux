@@ -1,0 +1,10 @@
+#!/bin/bash
+
+getIp=`curl ifconfig.me`
+
+if [ -z "$getIp" ]
+then
+      echo "No Connection"
+else
+      echo $getIp
+fi
