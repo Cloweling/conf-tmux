@@ -13,7 +13,7 @@ echo "Done!"
 # Download repository
 echo "Downloading repository..."
 cd /tmp
-wget -q https://raw.githubusercontent.com/Cloweling/conf-tmux/main/install.sh -O tmux_tmp.zip
+wget -q https://github.com/Cloweling/conf-tmux/archive/refs/heads/main.zip -O tmux_tmp.zip
 unzip -q tmux_tmp.zip
 mv conf-tmux-main $ROOT_PATH
 rm tmux_tmp.zip
